@@ -197,7 +197,7 @@ def process_single_language(
 
 def _detect_speaker_persona(vocals_path: str) -> str:
     """
-    Uses Gemini 2.5 Flash to detect the speaker's 'persona' (vibe/pitch).
+    Uses Gemini 3 Flash Preview to detect the speaker's 'persona' (vibe/pitch).
     Maps to: male_deep, male_energetic, female_soft, female_young.
     """
     api_key = os.environ.get("GEMINI_API_KEY")
@@ -210,10 +210,10 @@ def _detect_speaker_persona(vocals_path: str) -> str:
         
     try:
         client = genai.Client(api_key=api_key)
-        logger.info(f"Analyzing speaker persona for {os.path.basename(vocals_path)} using Gemini...")
+        logger.info(f"Analyzing speaker persona for {os.path.basename(vocals_path)} using Gemini (3-flash-preview)...")
         
         # Upload to Gemini (Multimodal Audio)
-        file_obj = client.files.upload(file_path=vocals_path)
+        file_obj = client.files.upload(path=vocals_path)
         
         prompt = """
         Listen to this audio. Categorize the speaker into exactly one of these categories:
@@ -226,7 +226,7 @@ def _detect_speaker_persona(vocals_path: str) -> str:
         """
         
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
+            model="gemini-3-flash-preview",
             contents=[
                 types.Content(
                     role="user",
@@ -239,15 +239,16 @@ def _detect_speaker_persona(vocals_path: str) -> str:
         )
         
         raw_text = response.text.strip().lower()
+        logger.debug(f"Gemini raw persona response: '{raw_text}'")
         
         # Validation against registry
-        match = "male_energetic" # Default
+        match = "female_soft" # Default fallback
         for p_key in VOICE_PERSONA_REGISTRY.keys():
             if p_key in raw_text:
                 match = p_key
                 break
             
-        logger.info(f"Gemini speaker persona result: {match}")
+        logger.info(f"Gemini detected persona: {match.upper()}")
         
         # Cleanup file from Gemini Cloud
         try: client.files.delete(name=file_obj.name)
@@ -255,8 +256,8 @@ def _detect_speaker_persona(vocals_path: str) -> str:
         
         return match
     except Exception as e:
-        logger.error(f"Persona detection failed: {e}. Defaulting to female_soft.")
-        return "female_soft"
+        logger.error(f"Persona detection failed: {e}. Check if GEMINI_API_KEY is valid. Defaulting to male_energetic.")
+        return "male_energetic"
 
 
 def run_phase2_generation(

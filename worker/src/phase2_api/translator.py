@@ -14,7 +14,7 @@ def translate_content(transcription_json: list, target_language: str) -> dict:
 
 
 def _translate_with_gemini(transcription_json: list, target_language: str) -> dict:
-    """Uses Gemini 3.0 Flash Preview for translation."""
+    """Uses Gemini 3 Flash Preview for translation."""
     api_key = os.getenv("GEMINI_API_KEY")
     if not api_key:
         raise ValueError("GEMINI_API_KEY environment variable is not set")
@@ -74,7 +74,7 @@ def _translate_with_gemini(transcription_json: list, target_language: str) -> di
         """
 
     # Try preferred models
-    for model_name in ["gemini-3-flash-preview", "gemini-2.5-flash"]:
+    for model_name in ["gemini-3-flash-preview"]:
         try:
             logger.info(f"Semantically Translating & Chunking to {target_language} using {model_name}")
             response = client.models.generate_content(

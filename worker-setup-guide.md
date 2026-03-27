@@ -13,7 +13,7 @@ Follow this strictly to deploy a Worker Node on another studio workstation over 
 3. Identify the Server's IP address (e.g., `192.168.1.100`)
 4. Create `.env` file in the root:
    ```env
-   CELERY_BROKER_URL=redis://:localizer_secret@192.168.1.100:6379/0
+   CELERY_BROKER_URL=redis://:YOUR_REDIS_PASSWORD@192.168.1.100:6379/0
    OPENAI_API_KEY=your_key
    ELEVENLABS_API_KEY=your_key
    ```

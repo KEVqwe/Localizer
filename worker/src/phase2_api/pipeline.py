@@ -19,7 +19,7 @@ from google.genai import types
 logger = setup_logger(__name__)
 
 # Max parallel languages (reduced from 9 to 5 to prevent VRAM and API contention)
-MAX_PARALLEL = 5
+MAX_PARALLEL = 9
 
 def _probe_video_dimensions(video_path: str) -> tuple:
     """Detects video resolution using ffprobe."""

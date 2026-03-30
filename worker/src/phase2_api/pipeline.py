@@ -16,10 +16,14 @@ from worker.src.utils.ffmpeg_manager import get_ffprobe_path, get_media_duration
 from google import genai
 from google.genai import types
 
-logger = setup_logger(__name__)
-
-# Max parallel languages (reduced from 9 to 5 to prevent VRAM and API contention)
+# Max parallel languages (Full pipeline)
 MAX_PARALLEL = 9
+
+import threading
+# Limit ElevenLabs concurrent calls to 4 to avoid stability/rate issues
+TTS_SEMAPHORE = threading.Semaphore(4)
+
+logger = setup_logger(__name__)
 
 def _probe_video_dimensions(video_path: str) -> tuple:
     """Detects video resolution using ffprobe."""
@@ -130,13 +134,25 @@ def process_single_language(
         
     tts_path = os.path.join(lang_dir, "tts_audio.mp3")
     
-    # mix_tts_audio now updates chunks internally with WhisperX alignments
-    mix_tts_audio(
-        translated_structured.get("transcription", []),
-        tts_path, total_duration_ms,
-        voice_id=cloned_voice_id,
-        language_code=lang_code
-    )
+    # [LIMITER] We use a semaphore here to only allow 4 languages to dub at once
+    # This prevents ElevenLabs API timeouts and unstable worker hangs
+    with TTS_SEMAPHORE:
+        # Create a transient lock file so the UI knows we are actively dubbing
+        lock_file_path = os.path.join(lang_dir, "dubbing.lock")
+        with open(lock_file_path, 'w') as f: f.write("LOCKED")
+        
+        try:
+            logger.info(f"🎙️ Starting TTS Dubbing for {lang_code} (Acquiring Semaphore...)")
+            # mix_tts_audio now updates chunks internally with WhisperX alignments
+            mix_tts_audio(
+                translated_structured.get("transcription", []),
+                tts_path, total_duration_ms,
+                voice_id=cloned_voice_id,
+                language_code=lang_code
+            )
+        finally:
+            if os.path.exists(lock_file_path):
+                os.remove(lock_file_path)
     
     # Step 3: Generate ASS subtitles (using the now-aligned chunks)
     flat_translated = [
@@ -209,11 +225,19 @@ def _detect_speaker_persona(vocals_path: str) -> str:
         return "female_soft"
         
     try:
-        client = genai.Client(api_key=api_key)
+        # Support for proxies if needed
+        http_proxy = os.getenv("HTTP_PROXY") or os.getenv("HTTPS_PROXY")
+        http_opts = None
+        if http_proxy:
+            logger.info(f"Using proxy for persona detection: {http_proxy}")
+            http_opts = {"proxy": http_proxy}
+
+        client = genai.Client(api_key=api_key, http_options=http_opts)
         logger.info(f"Analyzing speaker persona for {os.path.basename(vocals_path)} using Gemini (3-flash-preview)...")
         
         # Upload to Gemini (Multimodal Audio)
-        file_obj = client.files.upload(path=vocals_path)
+        # Use positional argument to bypass 'path' vs 'file_path' SDK inconsistencies
+        file_obj = client.files.upload(file=vocals_path)
         
         prompt = """
         Listen to this audio. Categorize the speaker into exactly one of these categories:

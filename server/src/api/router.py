@@ -163,8 +163,10 @@ async def get_job_status(job_id: str):
             completed_count += 1
         elif (lang_dir / "tts_audio.mp3").exists():
             lang_progress[lang] = "rendering"
-        elif (lang_dir / "translated.json").exists():
+        elif (lang_dir / "dubbing.lock").exists():
             lang_progress[lang] = "dubbing"
+        elif (lang_dir / "translated.json").exists():
+            lang_progress[lang] = "waiting_dubbing"
         elif lang_dir.exists():
             lang_progress[lang] = "translating"
         else:
@@ -176,6 +178,16 @@ async def get_job_status(job_id: str):
     if completed_count == total:
         return {"job_id": job_id, "status": "COMPLETED", "progress": lang_progress, "completed": completed_count, "total": total}
     
+    # [NEW] Prioritize Phase 2 detection to prevent UI jumps
+    # If transcription_validated exists, we are committed to Step 4 (GENERATING)
+    if (job_dir / "transcription_validated.json").exists():
+        return {"job_id": job_id, "status": "GENERATING", "progress": lang_progress, "completed": completed_count, "total": total}
+
+    # [NEW] Check if Phase 1A complete (transcription ready for review)
+    trans_path = job_dir / "transcription.json"
+    if trans_path.exists():
+        return {"job_id": job_id, "status": "WAITING_FOR_REVIEW"}
+
     # Check if currently processing in Celery or waiting in queue
     status_info = active_jobs.get(job_id)
     if status_info:
@@ -185,26 +197,10 @@ async def get_job_status(job_id: str):
             if res.status == 'PENDING':
                 return {"job_id": job_id, "status": "QUEUED", "progress": lang_progress, "completed": completed_count, "total": total}
             if res.status in ['STARTED', 'RETRY', 'PROGRESS']:
-                # If we are in Phase 1 (no transcription), return PROCESSING
-                # If we are in Phase 2 (some progress), it's GENERATING
-                if completed_count > 0 or any(v != "waiting" for v in lang_progress.values()):
-                    return {"job_id": job_id, "status": "GENERATING", "progress": lang_progress, "completed": completed_count, "total": total}
+                # The marker checks above handle Phase 2, so here we must be in Phase 1
                 return {"job_id": job_id, "status": "PROCESSING", "progress": lang_progress, "completed": completed_count, "total": total}
 
-    if completed_count > 0 or any(v != "waiting" for v in lang_progress.values()):
-        return {"job_id": job_id, "status": "GENERATING", "progress": lang_progress, "completed": completed_count, "total": total}
-    
-    # Check if Phase 2 in progress (validated file exists)
-    validated_path = job_dir / "transcription_validated.json"
-    if validated_path.exists():
-        return {"job_id": job_id, "status": "GENERATING", "progress": lang_progress, "completed": 0, "total": total}
-    
-    # Check if Phase 1A complete (transcription ready for review)
-    trans_path = job_dir / "transcription.json"
-    if trans_path.exists():
-        return {"job_id": job_id, "status": "WAITING_FOR_REVIEW"}
-        
-    # Default fall-through: If no metadata but active_jobs entry exists, it's starting Phase 1
+    # Default fall-through for early Phase 1
     if status_info:
         return {"job_id": job_id, "status": "QUEUED", "progress": lang_progress}
         
@@ -260,7 +256,7 @@ async def approve_job(task_id: str, request: ApprovalRequest):
     return {
         "job_id": request.job_id,
         "celery_task_id": task.id,
-        "status": "QUEUED"
+        "status": "GENERATING"
     }
 
 @router.post("/jobs/{job_id}/abort")

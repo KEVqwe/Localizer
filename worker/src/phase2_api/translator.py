@@ -74,7 +74,7 @@ def _translate_with_gemini(transcription_json: list, target_language: str) -> di
         """
 
     # Try preferred models
-    for model_name in ["gemini-3-flash-preview"]:
+    for model_name in ["gemini-3-flash-preview", "gemini-2.5-flash"]:
         try:
             logger.info(f"Semantically Translating & Chunking to {target_language} using {model_name}")
             response = client.models.generate_content(

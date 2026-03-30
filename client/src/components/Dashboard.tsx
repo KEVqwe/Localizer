@@ -21,11 +21,12 @@ const LANG_LABELS: Record<string, string> = {
 const LANG_ORDER = ['de','es','fr','id','it','pl','pt','ru','tr'];
 
 const STATUS_LABELS: Record<string, { text: string; color: string; icon: string }> = {
-    waiting:     { text: '等待中',  color: '#64748b', icon: '⏳' },
-    translating: { text: '翻译中',  color: '#f59e0b', icon: '📝' },
-    dubbing:     { text: '配音中',  color: '#8b5cf6', icon: '🎙️' },
-    rendering:   { text: '渲染中',  color: '#3b82f6', icon: '🎬' },
-    done:        { text: '已完成',  color: '#10b981', icon: '✅' },
+    waiting:         { text: '等待中',    color: '#64748b', icon: '⏳' },
+    translating:     { text: '翻译中',    color: '#f59e0b', icon: '📝' },
+    waiting_dubbing: { text: '等待配音',  color: '#94a3b8', icon: '🕒' },
+    dubbing:         { text: '配音中',    color: '#8b5cf6', icon: '🎙️' },
+    rendering:       { text: '渲染中',    color: '#3b82f6', icon: '🎬' },
+    done:            { text: '已完成',    color: '#10b981', icon: '✅' },
 };
 
 const TEMPLATE_LABELS: Record<string, string> = {

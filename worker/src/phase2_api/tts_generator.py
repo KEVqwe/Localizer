@@ -12,10 +12,10 @@ logger = setup_logger(__name__)
 # Standard High-Quality ElevenLabs Voices Registry
 # Mapped to descriptive personas for Gemini-powered smart selection
 VOICE_PERSONA_REGISTRY = {
-    "male_deep": "D37zOfS367664B95EBD5",      # Finn - Mature, Narrative
-    "male_energetic": "29vD33N1HipS3f17QNAs", # Drew - Ads, Energetic
-    "female_soft": "21m00Tcm4TlvDq8ikWAM",    # Rachel - Professional, Mature
-    "female_young": "pFZP5JQG7iQjIQuC4Bku",   # Lily - Young, High-pitch, Kawaii
+    "male_deep": "6F5Zhi321D3Oq7v1oNT4",      
+    "male_energetic": "yl2ZDV1MzN4HbQJbMihG", 
+    "female_soft": "iBo5PWT1qLiEyqhM7TrG",    
+    "female_young": "tnSpp4vdxKPjI9w0GnoV",   
 }
 
 # Fallbacks

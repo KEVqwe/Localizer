@@ -41,6 +41,35 @@ npm run dev
 ```
 
 前端地址：`http://localhost:5173`
+---
+
+## 📺 后台离线运行 (推荐)
+
+如果你不希望桌面被 4 个终端窗口占满，可以使用 PM2 将其作为后台服务运行。这样即使你关闭了终端，同事仍然可以使用。
+
+### 1. 启动所有服务
+双击根目录下的 `start_services.bat` 即可一键启动后台。
+
+或者手动执行：
+```bash
+pm2 start ecosystem.config.cjs
+```
+
+### 2. 查看状态
+```bash
+pm2 status
+```
+你需要看到 `localizer-redis`, `localizer-backend`, `localizer-worker`, `localizer-frontend` 全部为 `online` 绿色状态。
+
+### 3. 查看实时日志 (报错排查)
+```bash
+pm2 logs
+```
+
+### 4. 停止所有服务
+```bash
+pm2 stop all
+```
 
 ---
 
@@ -50,21 +79,22 @@ npm run dev
 
 上面 3 个服务全部启动后，同事直接访问你的内网 IP 即可：
 
-1. **查看你的内网 IP**：
+### 1. 查看你的内网 IP：
 
 ```powershell
 ipconfig
 # 找到 "IPv4 地址"，例如 172.16.25.111
 ```
 
-2. **发给同事访问地址**：`http://172.16.25.111:5173`
+### 2. 发给同事访问地址：`http://172.16.25.111:8000`
 
-3. **防火墙放行**（管理员 PowerShell 执行一次即可）：
+### 3. 防火墙放行（管理员 PowerShell 执行一次即可）：
 
 ```powershell
 netsh advfirewall firewall add rule name="Localizer API" dir=in action=allow protocol=TCP localport=8000
-netsh advfirewall firewall add rule name="Localizer Frontend" dir=in action=allow protocol=TCP localport=5173
 ```
+
+> **注意**：生产模式下前端已打包到后端，只需要 8000 端口，不再需要 5173。
 
 ### 方法二：生产模式（只需 1 个端口）
 

@@ -1,0 +1,207 @@
+{
+  "transcription": [
+    {
+      "full_text": "Willkommen bei Tavern Master!",
+      "start": 0.019,
+      "end": 1.658,
+      "chunks": [
+        {
+          "text": "Willkommen bei Tavern Master!",
+          "start": 0.019,
+          "end": 1.658
+        }
+      ]
+    },
+    {
+      "full_text": "Drei Tage gespielt, massig Gebiete frei!",
+      "start": 1.67,
+      "end": 5.316,
+      "chunks": [
+        {
+          "text": "Drei Tage gespielt,",
+          "start": 1.67,
+          "end": 3.376
+        },
+        {
+          "text": "massig Gebiete frei!",
+          "start": 3.446,
+          "end": 5.316
+        }
+      ]
+    },
+    {
+      "full_text": "Ein voller Speisesaal, coole Lounge, volle Küche und eine Show-Bühne!",
+      "start": 5.404,
+      "end": 11.626,
+      "chunks": [
+        {
+          "text": "Ein voller Speisesaal, coole Lounge,",
+          "start": 5.404,
+          "end": 8.628
+        },
+        {
+          "text": "volle Küche und eine Show-Bühne!",
+          "start": 8.698,
+          "end": 11.626
+        }
+      ]
+    },
+    {
+      "full_text": "Unter uns: Ich hab 'ne Geheimbasis.",
+      "start": 11.755,
+      "end": 14.615,
+      "chunks": [
+        {
+          "text": "Unter uns:",
+          "start": 11.755,
+          "end": 12.526
+        },
+        {
+          "text": "Ich hab 'ne Geheimbasis.",
+          "start": 12.596,
+          "end": 14.615
+        }
+      ]
+    },
+    {
+      "full_text": "Eine Verteidigungszone.",
+      "start": 14.716,
+      "end": 16.827,
+      "chunks": [
+        {
+          "text": "Eine Verteidigungszone.",
+          "start": 14.716,
+          "end": 16.827
+        }
+      ]
+    },
+    {
+      "full_text": "Waffenkammer, Trainingsplatz und meine Elite-Truppe.",
+      "start": 16.92,
+      "end": 20.633,
+      "chunks": [
+        {
+          "text": "Waffenkammer, Trainingsplatz",
+          "start": 16.92,
+          "end": 18.889
+        },
+        {
+          "text": "und meine Elite-Truppe.",
+          "start": 18.959,
+          "end": 20.633
+        }
+      ]
+    },
+    {
+      "full_text": "Sicherheit garantiert!",
+      "start": 20.714,
+      "end": 22.076,
+      "chunks": [
+        {
+          "text": "Sicherheit garantiert!",
+          "start": 20.714,
+          "end": 22.076
+        }
+      ]
+    },
+    {
+      "full_text": "Checkt meine Ausrüstung.",
+      "start": 22.197,
+      "end": 23.815,
+      "chunks": [
+        {
+          "text": "Checkt meine Ausrüstung.",
+          "start": 22.197,
+          "end": 23.815
+        }
+      ]
+    },
+    {
+      "full_text": "Zwei schnelle, robuste Kutschen.",
+      "start": 23.903,
+      "end": 26.255,
+      "chunks": [
+        {
+          "text": "Zwei schnelle,",
+          "start": 23.903,
+          "end": 24.895
+        },
+        {
+          "text": "robuste Kutschen.",
+          "start": 24.965,
+          "end": 26.255
+        }
+      ]
+    },
+    {
+      "full_text": "Ein Riesen-Luftschiff für Leute und Vorräte.",
+      "start": 26.371,
+      "end": 30.502,
+      "chunks": [
+        {
+          "text": "Ein Riesen-Luftschiff",
+          "start": 26.371,
+          "end": 28.318
+        },
+        {
+          "text": "für Leute und Vorräte.",
+          "start": 28.388,
+          "end": 30.502
+        }
+      ]
+    },
+    {
+      "full_text": "Dazu ein Schiff für seltene Beutezüge.",
+      "start": 30.598,
+      "end": 33.663,
+      "chunks": [
+        {
+          "text": "Dazu ein Schiff",
+          "start": 30.598,
+          "end": 31.771
+        },
+        {
+          "text": "für seltene Beutezüge.",
+          "start": 31.841,
+          "end": 33.663
+        }
+      ]
+    },
+    {
+      "full_text": "Endlos viel zu entdecken!",
+      "start": 33.768,
+      "end": 35.366,
+      "chunks": [
+        {
+          "text": "Endlos viel zu entdecken!",
+          "start": 33.768,
+          "end": 35.366
+        }
+      ]
+    },
+    {
+      "full_text": "Kommt in meine Allianz!",
+      "start": 35.37,
+      "end": 37.089,
+      "chunks": [
+        {
+          "text": "Kommt in meine Allianz!",
+          "start": 35.37,
+          "end": 37.089
+        }
+      ]
+    },
+    {
+      "full_text": "Reden wir bei 'nem Bier.",
+      "start": 37.093,
+      "end": 38.622,
+      "chunks": [
+        {
+          "text": "Reden wir bei 'nem Bier.",
+          "start": 37.093,
+          "end": 38.622
+        }
+      ]
+    }
+  ]
+}

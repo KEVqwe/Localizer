@@ -1,0 +1,202 @@
+{
+  "transcription": [
+    {
+      "full_text": "Benvenuti su Tavern Master!",
+      "start": 0.019,
+      "end": 1.658,
+      "chunks": [
+        {
+          "text": "Benvenuti su Tavern Master!",
+          "start": 0.019,
+          "end": 1.658
+        }
+      ]
+    },
+    {
+      "full_text": "Solo tre giorni e ho sbloccato di tutto!",
+      "start": 1.67,
+      "end": 5.316,
+      "chunks": [
+        {
+          "text": "Solo tre giorni",
+          "start": 1.67,
+          "end": 3.002
+        },
+        {
+          "text": "e ho sbloccato di tutto!",
+          "start": 3.072,
+          "end": 5.316
+        }
+      ]
+    },
+    {
+      "full_text": "Sala piena, lounge, cucina a mille e un palco per lo show!",
+      "start": 5.404,
+      "end": 11.626,
+      "chunks": [
+        {
+          "text": "Sala piena, lounge, cucina",
+          "start": 5.404,
+          "end": 8.635
+        },
+        {
+          "text": "e un palco per lo show!",
+          "start": 8.705,
+          "end": 11.626
+        }
+      ]
+    },
+    {
+      "full_text": "E tra noi... ho una base segreta.",
+      "start": 11.755,
+      "end": 14.615,
+      "chunks": [
+        {
+          "text": "E tra noi...",
+          "start": 11.755,
+          "end": 12.758
+        },
+        {
+          "text": "ho una base segreta.",
+          "start": 12.828,
+          "end": 14.615
+        }
+      ]
+    },
+    {
+      "full_text": "Una zona di difesa.",
+      "start": 14.716,
+      "end": 16.827,
+      "chunks": [
+        {
+          "text": "Una zona di difesa.",
+          "start": 14.716,
+          "end": 16.827
+        }
+      ]
+    },
+    {
+      "full_text": "Armeria, addestramento e il mio team d'élite.",
+      "start": 16.92,
+      "end": 20.633,
+      "chunks": [
+        {
+          "text": "Armeria, addestramento",
+          "start": 16.92,
+          "end": 18.706
+        },
+        {
+          "text": "e il mio team d'élite.",
+          "start": 18.776,
+          "end": 20.633
+        }
+      ]
+    },
+    {
+      "full_text": "Sicurezza garantita!",
+      "start": 20.714,
+      "end": 22.076,
+      "chunks": [
+        {
+          "text": "Sicurezza garantita!",
+          "start": 20.714,
+          "end": 22.076
+        }
+      ]
+    },
+    {
+      "full_text": "Guarda che equipaggiamento!",
+      "start": 22.197,
+      "end": 23.815,
+      "chunks": [
+        {
+          "text": "Guarda che equipaggiamento!",
+          "start": 22.197,
+          "end": 23.815
+        }
+      ]
+    },
+    {
+      "full_text": "Due carrozze super veloci.",
+      "start": 23.903,
+      "end": 26.255,
+      "chunks": [
+        {
+          "text": "Due carrozze super veloci.",
+          "start": 23.903,
+          "end": 26.255
+        }
+      ]
+    },
+    {
+      "full_text": "Un dirigibile per merci e persone in terre ricche!",
+      "start": 26.371,
+      "end": 30.502,
+      "chunks": [
+        {
+          "text": "Un dirigibile per merci",
+          "start": 26.371,
+          "end": 28.24
+        },
+        {
+          "text": "e persone in terre ricche!",
+          "start": 28.31,
+          "end": 30.502
+        }
+      ]
+    },
+    {
+      "full_text": "E una nave per i tesori rari!",
+      "start": 30.598,
+      "end": 33.663,
+      "chunks": [
+        {
+          "text": "E una nave per i tesori rari!",
+          "start": 30.598,
+          "end": 33.663
+        }
+      ]
+    },
+    {
+      "full_text": "C'è un mondo da scoprire!",
+      "start": 33.768,
+      "end": 35.366,
+      "chunks": [
+        {
+          "text": "C'è un mondo da scoprire!",
+          "start": 33.768,
+          "end": 35.366
+        }
+      ]
+    },
+    {
+      "full_text": "Entra nella mia alleanza!",
+      "start": 35.37,
+      "end": 37.089,
+      "chunks": [
+        {
+          "text": "Entra nella mia alleanza!",
+          "start": 35.37,
+          "end": 37.089
+        }
+      ]
+    },
+    {
+      "full_text": "Parliamone davanti a una birra!",
+      "start": 37.093,
+      "end": 38.622,
+      "chunks": [
+        {
+          "text": "Parliamone davanti",
+          "start": 37.093,
+          "end": 37.94
+        },
+        {
+          "text": "a una birra!",
+          "start": 38.01,
+          "end": 38.622
+        }
+      ]
+    }
+  ]
+}

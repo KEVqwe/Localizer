@@ -1,0 +1,202 @@
+{
+  "transcription": [
+    {
+      "full_text": "Witaj w Tavern Master!",
+      "start": 0.019,
+      "end": 1.658,
+      "chunks": [
+        {
+          "text": "Witaj w Tavern Master!",
+          "start": 0.019,
+          "end": 1.658
+        }
+      ]
+    },
+    {
+      "full_text": "Gram trzy dni i mam masę terenów.",
+      "start": 1.67,
+      "end": 5.316,
+      "chunks": [
+        {
+          "text": "Gram trzy dni",
+          "start": 1.67,
+          "end": 3.081
+        },
+        {
+          "text": "i mam masę terenów.",
+          "start": 3.151,
+          "end": 5.316
+        }
+      ]
+    },
+    {
+      "full_text": "Gwarna jadalnia, salon, kuchnia i scena do tańca.",
+      "start": 5.404,
+      "end": 11.626,
+      "chunks": [
+        {
+          "text": "Gwarna jadalnia, salon,",
+          "start": 5.404,
+          "end": 8.315
+        },
+        {
+          "text": "kuchnia i scena do tańca.",
+          "start": 8.385,
+          "end": 11.626
+        }
+      ]
+    },
+    {
+      "full_text": "Mam też tajną bazę, tylko cicho!",
+      "start": 11.755,
+      "end": 14.615,
+      "chunks": [
+        {
+          "text": "Mam też tajną bazę,",
+          "start": 11.755,
+          "end": 13.438
+        },
+        {
+          "text": "tylko cicho!",
+          "start": 13.508,
+          "end": 14.615
+        }
+      ]
+    },
+    {
+      "full_text": "To strefa obrony.",
+      "start": 14.716,
+      "end": 16.827,
+      "chunks": [
+        {
+          "text": "To strefa obrony.",
+          "start": 14.716,
+          "end": 16.827
+        }
+      ]
+    },
+    {
+      "full_text": "Zbrojownia, poligon i elitarny skład.",
+      "start": 16.92,
+      "end": 20.633,
+      "chunks": [
+        {
+          "text": "Zbrojownia, poligon",
+          "start": 16.92,
+          "end": 18.81
+        },
+        {
+          "text": "i elitarny skład.",
+          "start": 18.88,
+          "end": 20.633
+        }
+      ]
+    },
+    {
+      "full_text": "Bezpieczeństwo gwarantowane!",
+      "start": 20.714,
+      "end": 22.076,
+      "chunks": [
+        {
+          "text": "Bezpieczeństwo gwarantowane!",
+          "start": 20.714,
+          "end": 22.076
+        }
+      ]
+    },
+    {
+      "full_text": "Obczaj mój sprzęt.",
+      "start": 22.197,
+      "end": 23.815,
+      "chunks": [
+        {
+          "text": "Obczaj mój sprzęt.",
+          "start": 22.197,
+          "end": 23.815
+        }
+      ]
+    },
+    {
+      "full_text": "Dwa szybkie, mocne powozy.",
+      "start": 23.903,
+      "end": 26.255,
+      "chunks": [
+        {
+          "text": "Dwa szybkie, mocne powozy.",
+          "start": 23.903,
+          "end": 26.255
+        }
+      ]
+    },
+    {
+      "full_text": "Wielki sterowiec do transportu w bogate rejony.",
+      "start": 26.371,
+      "end": 30.502,
+      "chunks": [
+        {
+          "text": "Wielki sterowiec do transportu",
+          "start": 26.371,
+          "end": 28.995
+        },
+        {
+          "text": "w bogate rejony.",
+          "start": 29.065,
+          "end": 30.502
+        }
+      ]
+    },
+    {
+      "full_text": "I solidny statek na polowanie na łupy.",
+      "start": 30.598,
+      "end": 33.663,
+      "chunks": [
+        {
+          "text": "I solidny statek",
+          "start": 30.598,
+          "end": 31.853
+        },
+        {
+          "text": "na polowanie na łupy.",
+          "start": 31.923,
+          "end": 33.663
+        }
+      ]
+    },
+    {
+      "full_text": "Masa rzeczy do odkrycia.",
+      "start": 33.768,
+      "end": 35.366,
+      "chunks": [
+        {
+          "text": "Masa rzeczy do odkrycia.",
+          "start": 33.768,
+          "end": 35.366
+        }
+      ]
+    },
+    {
+      "full_text": "Dołącz do sojuszu.",
+      "start": 35.37,
+      "end": 37.089,
+      "chunks": [
+        {
+          "text": "Dołącz do sojuszu.",
+          "start": 35.37,
+          "end": 37.089
+        }
+      ]
+    },
+    {
+      "full_text": "Pogadajmy przy piwku.",
+      "start": 37.093,
+      "end": 38.622,
+      "chunks": [
+        {
+          "text": "Pogadajmy przy piwku.",
+          "start": 37.093,
+          "end": 38.622
+        }
+      ]
+    }
+  ]
+}

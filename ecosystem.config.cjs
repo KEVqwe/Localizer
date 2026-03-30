@@ -19,6 +19,14 @@ module.exports = {
       autorestart: true
     },
     {
+      name: "localizer-monitor",
+      script: "C:\\Users\\TU\\miniconda3\\envs\\py311\\python.exe",
+      args: "-m celery -A worker.src.celery_tasks flower --port=5555",
+      windowsHide: true,
+      watch: false,
+      autorestart: true
+    },
+    {
       name: "localizer-worker",
       script: "C:\\Users\\TU\\miniconda3\\envs\\py311\\Scripts\\celery.exe",
       args: "-A worker.src.celery_tasks worker --loglevel=info -P solo",

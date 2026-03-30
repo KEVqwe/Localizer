@@ -1,0 +1,192 @@
+{
+  "transcription": [
+    {
+      "full_text": "Tavern Master'a hoş geldiniz!",
+      "start": 0.019,
+      "end": 1.658,
+      "chunks": [
+        {
+          "text": "Tavern Master'a hoş geldiniz!",
+          "start": 0.019,
+          "end": 1.658
+        }
+      ]
+    },
+    {
+      "full_text": "Üç günde bir sürü yer açtım.",
+      "start": 1.67,
+      "end": 5.316,
+      "chunks": [
+        {
+          "text": "Üç günde bir sürü yer açtım.",
+          "start": 1.67,
+          "end": 5.316
+        }
+      ]
+    },
+    {
+      "full_text": "Canlı bir yemek alanı, salon, mutfak ve dans sahnesi.",
+      "start": 5.404,
+      "end": 11.626,
+      "chunks": [
+        {
+          "text": "Canlı bir yemek alanı, salon,",
+          "start": 5.404,
+          "end": 8.804
+        },
+        {
+          "text": "mutfak ve dans sahnesi.",
+          "start": 8.874,
+          "end": 11.626
+        }
+      ]
+    },
+    {
+      "full_text": "Gizli bir üssüm var, aramızda!",
+      "start": 11.755,
+      "end": 14.615,
+      "chunks": [
+        {
+          "text": "Gizli bir üssüm var, aramızda!",
+          "start": 11.755,
+          "end": 14.615
+        }
+      ]
+    },
+    {
+      "full_text": "Tam bir savunma bölgesi.",
+      "start": 14.716,
+      "end": 16.827,
+      "chunks": [
+        {
+          "text": "Tam bir savunma bölgesi.",
+          "start": 14.716,
+          "end": 16.827
+        }
+      ]
+    },
+    {
+      "full_text": "Cephanelik, eğitim alanı ve elit ekibim burada.",
+      "start": 16.92,
+      "end": 20.633,
+      "chunks": [
+        {
+          "text": "Cephanelik, eğitim alanı",
+          "start": 16.92,
+          "end": 18.787
+        },
+        {
+          "text": "ve elit ekibim burada.",
+          "start": 18.857,
+          "end": 20.633
+        }
+      ]
+    },
+    {
+      "full_text": "Güvenlik garanti!",
+      "start": 20.714,
+      "end": 22.076,
+      "chunks": [
+        {
+          "text": "Güvenlik garanti!",
+          "start": 20.714,
+          "end": 22.076
+        }
+      ]
+    },
+    {
+      "full_text": "Ekipmanlarıma bir bak.",
+      "start": 22.197,
+      "end": 23.815,
+      "chunks": [
+        {
+          "text": "Ekipmanlarıma bir bak.",
+          "start": 22.197,
+          "end": 23.815
+        }
+      ]
+    },
+    {
+      "full_text": "İki hızlı ve sağlam araba.",
+      "start": 23.903,
+      "end": 26.255,
+      "chunks": [
+        {
+          "text": "İki hızlı ve sağlam araba.",
+          "start": 23.903,
+          "end": 26.255
+        }
+      ]
+    },
+    {
+      "full_text": "Zengin yerlere erzak taşıyan dev bir zeplin.",
+      "start": 26.371,
+      "end": 30.502,
+      "chunks": [
+        {
+          "text": "Zengin yerlere erzak taşıyan",
+          "start": 26.371,
+          "end": 28.991
+        },
+        {
+          "text": "dev bir zeplin.",
+          "start": 29.061,
+          "end": 30.502
+        }
+      ]
+    },
+    {
+      "full_text": "Nadir ganimetler için sağlam bir gemi.",
+      "start": 30.598,
+      "end": 33.663,
+      "chunks": [
+        {
+          "text": "Nadir ganimetler için",
+          "start": 30.598,
+          "end": 32.268
+        },
+        {
+          "text": "sağlam bir gemi.",
+          "start": 32.338,
+          "end": 33.663
+        }
+      ]
+    },
+    {
+      "full_text": "Keşfedilecek çok şey var.",
+      "start": 33.768,
+      "end": 35.366,
+      "chunks": [
+        {
+          "text": "Keşfedilecek çok şey var.",
+          "start": 33.768,
+          "end": 35.366
+        }
+      ]
+    },
+    {
+      "full_text": "İttifakıma katıl.",
+      "start": 35.37,
+      "end": 37.089,
+      "chunks": [
+        {
+          "text": "İttifakıma katıl.",
+          "start": 35.37,
+          "end": 37.089
+        }
+      ]
+    },
+    {
+      "full_text": "Bira içip laflayalım.",
+      "start": 37.093,
+      "end": 38.622,
+      "chunks": [
+        {
+          "text": "Bira içip laflayalım.",
+          "start": 37.093,
+          "end": 38.622
+        }
+      ]
+    }
+  ]
+}

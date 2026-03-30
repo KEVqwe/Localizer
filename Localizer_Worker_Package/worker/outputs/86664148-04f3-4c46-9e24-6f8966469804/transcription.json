@@ -1,0 +1,1155 @@
+{
+  "segments": [
+    {
+      "start": 0.031,
+      "end": 1.634,
+      "text": " Welcome to Tavern Master!",
+      "words": [
+        {
+          "word": "Welcome",
+          "start": 0.031,
+          "end": 0.592,
+          "score": 0.682
+        },
+        {
+          "word": "to",
+          "start": 0.652,
+          "end": 0.752,
+          "score": 0.975
+        },
+        {
+          "word": "Tavern",
+          "start": 0.792,
+          "end": 1.173,
+          "score": 0.905
+        },
+        {
+          "word": "Master!",
+          "start": 1.193,
+          "end": 1.634,
+          "score": 0.941
+        }
+      ]
+    },
+    {
+      "start": 1.694,
+      "end": 5.14,
+      "text": "Played just three days, unlocked tons of areas.",
+      "words": [
+        {
+          "word": "Played",
+          "start": 1.694,
+          "end": 2.315,
+          "score": 0.825
+        },
+        {
+          "word": "just",
+          "start": 2.375,
+          "end": 2.555,
+          "score": 0.877
+        },
+        {
+          "word": "three",
+          "start": 2.675,
+          "end": 2.936,
+          "score": 0.737
+        },
+        {
+          "word": "days,",
+          "start": 2.976,
+          "end": 3.276,
+          "score": 0.843
+        },
+        {
+          "word": "unlocked",
+          "start": 3.577,
+          "end": 3.938,
+          "score": 0.928
+        },
+        {
+          "word": "tons",
+          "start": 3.958,
+          "end": 4.499,
+          "score": 0.806
+        },
+        {
+          "word": "of",
+          "start": 4.519,
+          "end": 4.599,
+          "score": 0.723
+        },
+        {
+          "word": "areas.",
+          "start": 4.719,
+          "end": 5.14,
+          "score": 0.917
+        }
+      ]
+    },
+    {
+      "start": 5.58,
+      "end": 11.37,
+      "text": "A buzzing dining spot, interactive lounge, busy kitchen, and a singing-dancing stage.",
+      "words": [
+        {
+          "word": "A",
+          "start": 5.58,
+          "end": 5.62,
+          "score": 0.968
+        },
+        {
+          "word": "buzzing",
+          "start": 5.721,
+          "end": 6.081,
+          "score": 0.853
+        },
+        {
+          "word": "dining",
+          "start": 6.141,
+          "end": 6.462,
+          "score": 0.972
+        },
+        {
+          "word": "spot,",
+          "start": 6.502,
+          "end": 6.883,
+          "score": 0.858
+        },
+        {
+          "word": "interactive",
+          "start": 7.143,
+          "end": 7.724,
+          "score": 0.943
+        },
+        {
+          "word": "lounge,",
+          "start": 7.784,
+          "end": 8.225,
+          "score": 0.79
+        },
+        {
+          "word": "busy",
+          "start": 8.565,
+          "end": 8.886,
+          "score": 0.979
+        },
+        {
+          "word": "kitchen,",
+          "start": 8.946,
+          "end": 9.327,
+          "score": 0.894
+        },
+        {
+          "word": "and",
+          "start": 9.667,
+          "end": 9.767,
+          "score": 0.785
+        },
+        {
+          "word": "a",
+          "start": 9.828,
+          "end": 9.848,
+          "score": 0.884
+        },
+        {
+          "word": "singing-dancing",
+          "start": 10.008,
+          "end": 10.869,
+          "score": 0.84
+        },
+        {
+          "word": "stage.",
+          "start": 10.949,
+          "end": 11.37,
+          "score": 0.822
+        }
+      ]
+    },
+    {
+      "start": 12.011,
+      "end": 14.415,
+      "text": "Between us, I've got a secret base.",
+      "words": [
+        {
+          "word": "Between",
+          "start": 12.011,
+          "end": 12.412,
+          "score": 0.93
+        },
+        {
+          "word": "us,",
+          "start": 12.552,
+          "end": 12.632,
+          "score": 0.911
+        },
+        {
+          "word": "I've",
+          "start": 13.153,
+          "end": 13.293,
+          "score": 0.872
+        },
+        {
+          "word": "got",
+          "start": 13.333,
+          "end": 13.494,
+          "score": 0.947
+        },
+        {
+          "word": "a",
+          "start": 13.534,
+          "end": 13.554,
+          "score": 0.987
+        },
+        {
+          "word": "secret",
+          "start": 13.674,
+          "end": 14.015,
+          "score": 0.914
+        },
+        {
+          "word": "base.",
+          "start": 14.075,
+          "end": 14.415,
+          "score": 0.935
+        }
+      ]
+    },
+    {
+      "start": 14.916,
+      "end": 16.639,
+      "text": "A defense zone.",
+      "words": [
+        {
+          "word": "A",
+          "start": 14.916,
+          "end": 14.956,
+          "score": 0.994
+        },
+        {
+          "word": "defense",
+          "start": 15.016,
+          "end": 15.517,
+          "score": 0.887
+        },
+        {
+          "word": "zone.",
+          "start": 15.597,
+          "end": 16.639,
+          "score": 0.869
+        }
+      ]
+    },
+    {
+      "start": 17.108,
+      "end": 20.473,
+      "text": " Full armory, training ground, and my elite squad.",
+      "words": [
+        {
+          "word": "Full",
+          "start": 17.108,
+          "end": 17.388,
+          "score": 0.757
+        },
+        {
+          "word": "armory,",
+          "start": 17.489,
+          "end": 17.889,
+          "score": 0.943
+        },
+        {
+          "word": "training",
+          "start": 18.19,
+          "end": 18.55,
+          "score": 0.844
+        },
+        {
+          "word": "ground,",
+          "start": 18.59,
+          "end": 18.951,
+          "score": 0.87
+        },
+        {
+          "word": "and",
+          "start": 19.211,
+          "end": 19.332,
+          "score": 0.781
+        },
+        {
+          "word": "my",
+          "start": 19.432,
+          "end": 19.572,
+          "score": 0.98
+        },
+        {
+          "word": "elite",
+          "start": 19.692,
+          "end": 19.953,
+          "score": 0.861
+        },
+        {
+          "word": "squad.",
+          "start": 20.013,
+          "end": 20.473,
+          "score": 0.945
+        }
+      ]
+    },
+    {
+      "start": 20.874,
+      "end": 21.836,
+      "text": "Safety guaranteed.",
+      "words": [
+        {
+          "word": "Safety",
+          "start": 20.874,
+          "end": 21.235,
+          "score": 0.96
+        },
+        {
+          "word": "guaranteed.",
+          "start": 21.275,
+          "end": 21.836,
+          "score": 0.79
+        }
+      ]
+    },
+    {
+      "start": 22.437,
+      "end": 23.639,
+      "text": "Check my resource gear.",
+      "words": [
+        {
+          "word": "Check",
+          "start": 22.437,
+          "end": 22.637,
+          "score": 0.831
+        },
+        {
+          "word": "my",
+          "start": 22.697,
+          "end": 22.817,
+          "score": 0.872
+        },
+        {
+          "word": "resource",
+          "start": 22.897,
+          "end": 23.338,
+          "score": 0.903
+        },
+        {
+          "word": "gear.",
+          "start": 23.398,
+          "end": 23.639,
+          "score": 0.876
+        }
+      ]
+    },
+    {
+      "start": 24.079,
+      "end": 26.023,
+      "text": "Two fast, tough carriages.",
+      "words": [
+        {
+          "word": "Two",
+          "start": 24.079,
+          "end": 24.3,
+          "score": 0.752
+        },
+        {
+          "word": "fast,",
+          "start": 24.48,
+          "end": 24.901,
+          "score": 0.91
+        },
+        {
+          "word": "tough",
+          "start": 25.141,
+          "end": 25.422,
+          "score": 0.949
+        },
+        {
+          "word": "carriages.",
+          "start": 25.482,
+          "end": 26.023,
+          "score": 0.894
+        }
+      ]
+    },
+    {
+      "start": 26.603,
+      "end": 30.31,
+      "text": "A giant airship for hauling people, supplies to rich lands.",
+      "words": [
+        {
+          "word": "A",
+          "start": 26.603,
+          "end": 26.644,
+          "score": 0.993
+        },
+        {
+          "word": "giant",
+          "start": 26.764,
+          "end": 27.184,
+          "score": 0.897
+        },
+        {
+          "word": "airship",
+          "start": 27.305,
+          "end": 27.685,
+          "score": 0.893
+        },
+        {
+          "word": "for",
+          "start": 27.765,
+          "end": 27.886,
+          "score": 0.723
+        },
+        {
+          "word": "hauling",
+          "start": 27.926,
+          "end": 28.226,
+          "score": 0.875
+        },
+        {
+          "word": "people,",
+          "start": 28.286,
+          "end": 28.707,
+          "score": 0.837
+        },
+        {
+          "word": "supplies",
+          "start": 28.787,
+          "end": 29.308,
+          "score": 0.813
+        },
+        {
+          "word": "to",
+          "start": 29.428,
+          "end": 29.528,
+          "score": 0.933
+        },
+        {
+          "word": "rich",
+          "start": 29.608,
+          "end": 29.829,
+          "score": 0.835
+        },
+        {
+          "word": "lands.",
+          "start": 29.929,
+          "end": 30.31,
+          "score": 0.939
+        }
+      ]
+    },
+    {
+      "start": 30.79,
+      "end": 33.455,
+      "text": "Plus, a sturdy ship for rare loot hunts.",
+      "words": [
+        {
+          "word": "Plus,",
+          "start": 30.79,
+          "end": 31.191,
+          "score": 0.91
+        },
+        {
+          "word": "a",
+          "start": 31.351,
+          "end": 31.371,
+          "score": 0.941
+        },
+        {
+          "word": "sturdy",
+          "start": 31.471,
+          "end": 31.832,
+          "score": 0.876
+        },
+        {
+          "word": "ship",
+          "start": 31.912,
+          "end": 32.153,
+          "score": 0.836
+        },
+        {
+          "word": "for",
+          "start": 32.233,
+          "end": 32.373,
+          "score": 0.875
+        },
+        {
+          "word": "rare",
+          "start": 32.493,
+          "end": 32.774,
+          "score": 0.749
+        },
+        {
+          "word": "loot",
+          "start": 32.874,
+          "end": 33.114,
+          "score": 0.716
+        },
+        {
+          "word": "hunts.",
+          "start": 33.174,
+          "end": 33.455,
+          "score": 0.968
+        }
+      ]
+    },
+    {
+      "start": 33.976,
+      "end": 35.358,
+      "text": "Endless things to explore.",
+      "words": [
+        {
+          "word": "Endless",
+          "start": 33.976,
+          "end": 34.356,
+          "score": 0.765
+        },
+        {
+          "word": "things",
+          "start": 34.416,
+          "end": 34.657,
+          "score": 0.886
+        },
+        {
+          "word": "to",
+          "start": 34.697,
+          "end": 34.797,
+          "score": 0.964
+        },
+        {
+          "word": "explore.",
+          "start": 34.877,
+          "end": 35.358,
+          "score": 0.908
+        }
+      ]
+    },
+    {
+      "start": 35.378,
+      "end": 37.081,
+      "text": "Join my alliance.",
+      "words": [
+        {
+          "word": "Join",
+          "start": 35.378,
+          "end": 36.039,
+          "score": 0.87
+        },
+        {
+          "word": "my",
+          "start": 36.079,
+          "end": 36.199,
+          "score": 0.998
+        },
+        {
+          "word": "alliance.",
+          "start": 36.239,
+          "end": 37.081,
+          "score": 0.978
+        }
+      ]
+    },
+    {
+      "start": 37.101,
+      "end": 38.222,
+      "text": "Let's chat over a beer.",
+      "words": [
+        {
+          "word": "Let's",
+          "start": 37.101,
+          "end": 37.301,
+          "score": 0.711
+        },
+        {
+          "word": "chat",
+          "start": 37.381,
+          "end": 37.601,
+          "score": 0.955
+        },
+        {
+          "word": "over",
+          "start": 37.662,
+          "end": 37.842,
+          "score": 0.92
+        },
+        {
+          "word": "a",
+          "start": 37.882,
+          "end": 37.902,
+          "score": 0.809
+        },
+        {
+          "word": "beer.",
+          "start": 37.962,
+          "end": 38.222,
+          "score": 0.888
+        }
+      ]
+    },
+    {
+      "start": 38.263,
+      "end": 41.648,
+      "text": "Tavern Master, play free now.",
+      "words": [
+        {
+          "word": "Tavern",
+          "start": 38.263,
+          "end": 39.344,
+          "score": 0.748
+        },
+        {
+          "word": "Master,",
+          "start": 39.384,
+          "end": 39.985,
+          "score": 0.952
+        },
+        {
+          "word": "play",
+          "start": 40.286,
+          "end": 40.546,
+          "score": 0.663
+        },
+        {
+          "word": "free",
+          "start": 40.626,
+          "end": 40.947,
+          "score": 0.877
+        },
+        {
+          "word": "now.",
+          "start": 41.007,
+          "end": 41.648,
+          "score": 0.666
+        }
+      ]
+    }
+  ],
+  "word_segments": [
+    {
+      "word": "Welcome",
+      "start": 0.031,
+      "end": 0.592,
+      "score": 0.682
+    },
+    {
+      "word": "to",
+      "start": 0.652,
+      "end": 0.752,
+      "score": 0.975
+    },
+    {
+      "word": "Tavern",
+      "start": 0.792,
+      "end": 1.173,
+      "score": 0.905
+    },
+    {
+      "word": "Master!",
+      "start": 1.193,
+      "end": 1.634,
+      "score": 0.941
+    },
+    {
+      "word": "Played",
+      "start": 1.694,
+      "end": 2.315,
+      "score": 0.825
+    },
+    {
+      "word": "just",
+      "start": 2.375,
+      "end": 2.555,
+      "score": 0.877
+    },
+    {
+      "word": "three",
+      "start": 2.675,
+      "end": 2.936,
+      "score": 0.737
+    },
+    {
+      "word": "days,",
+      "start": 2.976,
+      "end": 3.276,
+      "score": 0.843
+    },
+    {
+      "word": "unlocked",
+      "start": 3.577,
+      "end": 3.938,
+      "score": 0.928
+    },
+    {
+      "word": "tons",
+      "start": 3.958,
+      "end": 4.499,
+      "score": 0.806
+    },
+    {
+      "word": "of",
+      "start": 4.519,
+      "end": 4.599,
+      "score": 0.723
+    },
+    {
+      "word": "areas.",
+      "start": 4.719,
+      "end": 5.14,
+      "score": 0.917
+    },
+    {
+      "word": "A",
+      "start": 5.58,
+      "end": 5.62,
+      "score": 0.968
+    },
+    {
+      "word": "buzzing",
+      "start": 5.721,
+      "end": 6.081,
+      "score": 0.853
+    },
+    {
+      "word": "dining",
+      "start": 6.141,
+      "end": 6.462,
+      "score": 0.972
+    },
+    {
+      "word": "spot,",
+      "start": 6.502,
+      "end": 6.883,
+      "score": 0.858
+    },
+    {
+      "word": "interactive",
+      "start": 7.143,
+      "end": 7.724,
+      "score": 0.943
+    },
+    {
+      "word": "lounge,",
+      "start": 7.784,
+      "end": 8.225,
+      "score": 0.79
+    },
+    {
+      "word": "busy",
+      "start": 8.565,
+      "end": 8.886,
+      "score": 0.979
+    },
+    {
+      "word": "kitchen,",
+      "start": 8.946,
+      "end": 9.327,
+      "score": 0.894
+    },
+    {
+      "word": "and",
+      "start": 9.667,
+      "end": 9.767,
+      "score": 0.785
+    },
+    {
+      "word": "a",
+      "start": 9.828,
+      "end": 9.848,
+      "score": 0.884
+    },
+    {
+      "word": "singing-dancing",
+      "start": 10.008,
+      "end": 10.869,
+      "score": 0.84
+    },
+    {
+      "word": "stage.",
+      "start": 10.949,
+      "end": 11.37,
+      "score": 0.822
+    },
+    {
+      "word": "Between",
+      "start": 12.011,
+      "end": 12.412,
+      "score": 0.93
+    },
+    {
+      "word": "us,",
+      "start": 12.552,
+      "end": 12.632,
+      "score": 0.911
+    },
+    {
+      "word": "I've",
+      "start": 13.153,
+      "end": 13.293,
+      "score": 0.872
+    },
+    {
+      "word": "got",
+      "start": 13.333,
+      "end": 13.494,
+      "score": 0.947
+    },
+    {
+      "word": "a",
+      "start": 13.534,
+      "end": 13.554,
+      "score": 0.987
+    },
+    {
+      "word": "secret",
+      "start": 13.674,
+      "end": 14.015,
+      "score": 0.914
+    },
+    {
+      "word": "base.",
+      "start": 14.075,
+      "end": 14.415,
+      "score": 0.935
+    },
+    {
+      "word": "A",
+      "start": 14.916,
+      "end": 14.956,
+      "score": 0.994
+    },
+    {
+      "word": "defense",
+      "start": 15.016,
+      "end": 15.517,
+      "score": 0.887
+    },
+    {
+      "word": "zone.",
+      "start": 15.597,
+      "end": 16.639,
+      "score": 0.869
+    },
+    {
+      "word": "Full",
+      "start": 17.108,
+      "end": 17.388,
+      "score": 0.757
+    },
+    {
+      "word": "armory,",
+      "start": 17.489,
+      "end": 17.889,
+      "score": 0.943
+    },
+    {
+      "word": "training",
+      "start": 18.19,
+      "end": 18.55,
+      "score": 0.844
+    },
+    {
+      "word": "ground,",
+      "start": 18.59,
+      "end": 18.951,
+      "score": 0.87
+    },
+    {
+      "word": "and",
+      "start": 19.211,
+      "end": 19.332,
+      "score": 0.781
+    },
+    {
+      "word": "my",
+      "start": 19.432,
+      "end": 19.572,
+      "score": 0.98
+    },
+    {
+      "word": "elite",
+      "start": 19.692,
+      "end": 19.953,
+      "score": 0.861
+    },
+    {
+      "word": "squad.",
+      "start": 20.013,
+      "end": 20.473,
+      "score": 0.945
+    },
+    {
+      "word": "Safety",
+      "start": 20.874,
+      "end": 21.235,
+      "score": 0.96
+    },
+    {
+      "word": "guaranteed.",
+      "start": 21.275,
+      "end": 21.836,
+      "score": 0.79
+    },
+    {
+      "word": "Check",
+      "start": 22.437,
+      "end": 22.637,
+      "score": 0.831
+    },
+    {
+      "word": "my",
+      "start": 22.697,
+      "end": 22.817,
+      "score": 0.872
+    },
+    {
+      "word": "resource",
+      "start": 22.897,
+      "end": 23.338,
+      "score": 0.903
+    },
+    {
+      "word": "gear.",
+      "start": 23.398,
+      "end": 23.639,
+      "score": 0.876
+    },
+    {
+      "word": "Two",
+      "start": 24.079,
+      "end": 24.3,
+      "score": 0.752
+    },
+    {
+      "word": "fast,",
+      "start": 24.48,
+      "end": 24.901,
+      "score": 0.91
+    },
+    {
+      "word": "tough",
+      "start": 25.141,
+      "end": 25.422,
+      "score": 0.949
+    },
+    {
+      "word": "carriages.",
+      "start": 25.482,
+      "end": 26.023,
+      "score": 0.894
+    },
+    {
+      "word": "A",
+      "start": 26.603,
+      "end": 26.644,
+      "score": 0.993
+    },
+    {
+      "word": "giant",
+      "start": 26.764,
+      "end": 27.184,
+      "score": 0.897
+    },
+    {
+      "word": "airship",
+      "start": 27.305,
+      "end": 27.685,
+      "score": 0.893
+    },
+    {
+      "word": "for",
+      "start": 27.765,
+      "end": 27.886,
+      "score": 0.723
+    },
+    {
+      "word": "hauling",
+      "start": 27.926,
+      "end": 28.226,
+      "score": 0.875
+    },
+    {
+      "word": "people,",
+      "start": 28.286,
+      "end": 28.707,
+      "score": 0.837
+    },
+    {
+      "word": "supplies",
+      "start": 28.787,
+      "end": 29.308,
+      "score": 0.813
+    },
+    {
+      "word": "to",
+      "start": 29.428,
+      "end": 29.528,
+      "score": 0.933
+    },
+    {
+      "word": "rich",
+      "start": 29.608,
+      "end": 29.829,
+      "score": 0.835
+    },
+    {
+      "word": "lands.",
+      "start": 29.929,
+      "end": 30.31,
+      "score": 0.939
+    },
+    {
+      "word": "Plus,",
+      "start": 30.79,
+      "end": 31.191,
+      "score": 0.91
+    },
+    {
+      "word": "a",
+      "start": 31.351,
+      "end": 31.371,
+      "score": 0.941
+    },
+    {
+      "word": "sturdy",
+      "start": 31.471,
+      "end": 31.832,
+      "score": 0.876
+    },
+    {
+      "word": "ship",
+      "start": 31.912,
+      "end": 32.153,
+      "score": 0.836
+    },
+    {
+      "word": "for",
+      "start": 32.233,
+      "end": 32.373,
+      "score": 0.875
+    },
+    {
+      "word": "rare",
+      "start": 32.493,
+      "end": 32.774,
+      "score": 0.749
+    },
+    {
+      "word": "loot",
+      "start": 32.874,
+      "end": 33.114,
+      "score": 0.716
+    },
+    {
+      "word": "hunts.",
+      "start": 33.174,
+      "end": 33.455,
+      "score": 0.968
+    },
+    {
+      "word": "Endless",
+      "start": 33.976,
+      "end": 34.356,
+      "score": 0.765
+    },
+    {
+      "word": "things",
+      "start": 34.416,
+      "end": 34.657,
+      "score": 0.886
+    },
+    {
+      "word": "to",
+      "start": 34.697,
+      "end": 34.797,
+      "score": 0.964
+    },
+    {
+      "word": "explore.",
+      "start": 34.877,
+      "end": 35.358,
+      "score": 0.908
+    },
+    {
+      "word": "Join",
+      "start": 35.378,
+      "end": 36.039,
+      "score": 0.87
+    },
+    {
+      "word": "my",
+      "start": 36.079,
+      "end": 36.199,
+      "score": 0.998
+    },
+    {
+      "word": "alliance.",
+      "start": 36.239,
+      "end": 37.081,
+      "score": 0.978
+    },
+    {
+      "word": "Let's",
+      "start": 37.101,
+      "end": 37.301,
+      "score": 0.711
+    },
+    {
+      "word": "chat",
+      "start": 37.381,
+      "end": 37.601,
+      "score": 0.955
+    },
+    {
+      "word": "over",
+      "start": 37.662,
+      "end": 37.842,
+      "score": 0.92
+    },
+    {
+      "word": "a",
+      "start": 37.882,
+      "end": 37.902,
+      "score": 0.809
+    },
+    {
+      "word": "beer.",
+      "start": 37.962,
+      "end": 38.222,
+      "score": 0.888
+    },
+    {
+      "word": "Tavern",
+      "start": 38.263,
+      "end": 39.344,
+      "score": 0.748
+    },
+    {
+      "word": "Master,",
+      "start": 39.384,
+      "end": 39.985,
+      "score": 0.952
+    },
+    {
+      "word": "play",
+      "start": 40.286,
+      "end": 40.546,
+      "score": 0.663
+    },
+    {
+      "word": "free",
+      "start": 40.626,
+      "end": 40.947,
+      "score": 0.877
+    },
+    {
+      "word": "now.",
+      "start": 41.007,
+      "end": 41.648,
+      "score": 0.666
+    }
+  ]
+}

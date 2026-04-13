@@ -10,7 +10,7 @@ interface LangResult {
     download_url: string;
 }
 
-const API_HOST = `${window.location.protocol}//${window.location.hostname}:8000`;
+const API_HOST = `${window.location.protocol}//${window.location.hostname}:8080`;
 
 const LANG_LABELS: Record<string, string> = {
     de: '🇩🇪 德语', es: '🇪🇸 西班牙语', fr: '🇫🇷 法语',

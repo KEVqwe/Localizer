@@ -1,4 +1,4 @@
-const API_BASE = `${window.location.protocol}//${window.location.hostname}:8000/api/v1`;
+const API_BASE = `${window.location.protocol}//${window.location.hostname}:8080/api/v1`;
 
 const handleResponse = async (res: Response) => {
   if (!res.ok) {

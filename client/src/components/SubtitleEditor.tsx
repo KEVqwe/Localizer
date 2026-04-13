@@ -14,7 +14,7 @@ interface Props {
     onAbort?: () => void;
 }
 
-const API_HOST = `${window.location.protocol}//${window.location.hostname}:8000`;
+const API_HOST = `${window.location.protocol}//${window.location.hostname}:8080`;
 
 export const SubtitleEditor: React.FC<Props> = ({ jobId, initialSegments, onConfirm, onAbort }) => {
     const [segments, setSegments] = useState<Segment[]>(

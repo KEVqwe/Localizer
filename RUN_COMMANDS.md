@@ -24,7 +24,7 @@ docker-compose up -d
 python -m server.src.main
 ```
 
-后端地址：`http://localhost:8000`
+后端地址：`http://localhost:8080`
 
 ### 4. 启动 Celery Worker（另开终端）
 
@@ -86,19 +86,19 @@ ipconfig
 # 找到 "IPv4 地址"，例如 172.16.25.111
 ```
 
-### 2. 发给同事访问地址：`http://172.16.25.111:8000`
+### 2. 发给同事访问地址：`http://172.16.25.111:8080`
 
 ### 3. 防火墙放行（管理员 PowerShell 执行一次即可）：
 
 ```powershell
-netsh advfirewall firewall add rule name="Localizer API" dir=in action=allow protocol=TCP localport=8000
+netsh advfirewall firewall add rule name="Localizer API" dir=in action=allow protocol=TCP localport=8080
 ```
 
-> **注意**：生产模式下前端已打包到后端，只需要 8000 端口，不再需要 5173。
+> **注意**：生产模式下前端已打包到后端，只需要 8080 端口，不再需要 5173。
 
 ### 方法二：生产模式（只需 1 个端口）
 
-打包前端，让 FastAPI 同时托管 API 和页面，只需要 `8000` 端口：
+打包前端，让 FastAPI 同时托管 API 和页面，只需要 `8080` 端口：
 
 ```bash
 # 1. 打包前端
@@ -110,9 +110,9 @@ cd ..
 python -m server.src.main
 ```
 
-同事访问：`http://172.16.25.111:8000`
+同事访问：`http://172.16.25.111:8080`
 
-> 生产模式只需要放行 8000 端口，不需要 5173。
+> 生产模式只需要放行 8080 端口，不需要 5173。
 
 ---
 

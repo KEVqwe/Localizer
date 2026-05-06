@@ -63,20 +63,20 @@ MAX_PARALLEL=5
 本项目采用前后端分离架构，配合 Celery 任务队列：
 
 ```bash
+# 0. 激活 Conda 环境
+conda activate py311
+
 # 1. 启动 Redis (任务调度核心)
-redis-server
+docker-compose up -d
 
 # 2. 启动 Worker (GPU 算力中心)
-cd worker
-celery -A worker.src.celery_tasks worker --loglevel=info -P threads
+celery -A worker.src.celery_tasks worker --loglevel=info -P solo
 
-# 3. 启动 Server (后端 API)
-cd server
-python main.py
+# 3. 启动 Server (后端 API，端口 8080)
+python -m server.src.main
 
-# 4. 启动 Client (前端 Dashboard)
-cd client
-npm run dev
+# 4. 启动 Client (前端 Dashboard，端口 5173)
+cd client && npm run dev
 ```
 
 ---
